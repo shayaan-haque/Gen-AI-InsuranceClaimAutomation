@@ -1,0 +1,20 @@
+# Compatible environment for the existing LangChain 0.3 application and RAGAS.
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==19.0.1
+langchain==0.3.27
+langchain-core>=0.3.78,<1.0
+langchain-community==0.3.31
+langchain-openai>=0.3,<0.4
+langchain-groq==0.3.2
+ragas==0.4.3
+sentence-transformers>=5,<7
+faiss-cpu==1.12.0
+rank-bm25==0.2.2
+pypdf>=5,<7
+PyPDF2==3.0.1
+python-dotenv>=1,<2
+tiktoken>=0.9,<1
+openai>=1,<3
+flask>=3,<4
+markdown>=3,<4

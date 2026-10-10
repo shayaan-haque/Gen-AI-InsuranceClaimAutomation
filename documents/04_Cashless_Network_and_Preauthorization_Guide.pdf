@@ -1,0 +1,471 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] /Count 9 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1300 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(============================================================================================) Tj
+T*
+(APEXCARE INDIA EMPLOYEE HEALTH BENEFIT PROGRAMME \(AIEHBP\)) Tj
+T*
+(CASHLESS, NETWORK AND PREAUTHORIZATION GUIDE) Tj
+T*
+(============================================================================================) Tj
+T*
+(Demonstration Version 1.0 | Effective date: 01 April 2026) Tj
+T*
+(Document code: AIEHBP-NET-004) Tj
+T*
+(Primary audience: Members, network hospitals, TPA and utilization teams) Tj
+T*
+() Tj
+T*
+(FICTIONAL TRAINING DOCUMENT - NOT AN INSURANCE CONTRACT. This document is a synthetic) Tj
+T*
+(example created for software development, retrieval testing, and claims-workflow) Tj
+T*
+(demonstrations. A real insurer, employer, TPA, legal team, medical team, and compliance) Tj
+T*
+(function must review and approve all wording, benefits, timelines, forms, and regulatory) Tj
+T*
+(references before operational use.) Tj
+T*
+() Tj
+T*
+(Document-control rule: cite the document code, section, clause, page, and version in every decision.) Tj
+T*
+(Interpretation rule: the signed policy schedule and endorsements override this demonstration text.) Tj
+T*
+(============================================================================================) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 867 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(1. NETWORK PRINCIPLES) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Cashless service is a payment arrangement, not a separate coverage guarantee.) Tj
+T*
+() Tj
+T*
+(NET-1.1  Network status) Tj
+T*
+(   A hospital is network only when contracted and active for the date of admission.) Tj
+T*
+(   Directory information must be verified at request time.) Tj
+T*
+() Tj
+T*
+(NET-1.2  Member choice) Tj
+T*
+(   Members may use non-network providers subject to reimbursement terms, emergency rules and) Tj
+T*
+(   any schedule restrictions.) Tj
+T*
+() Tj
+T*
+(NET-1.3  No balance-billing promise) Tj
+T*
+(   The member remains responsible for non-covered items, co-payment, deductible, excess over) Tj
+T*
+(   limits and provider charges not accepted under the network tariff.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1084 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(2. PLANNED ADMISSION WORKFLOW) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Planned treatment should be assessed before admission.) Tj
+T*
+() Tj
+T*
+(NET-2.1  Submission timing) Tj
+T*
+(   The hospital should submit a complete preauthorization request at least forty-eight hours) Tj
+T*
+(   before planned admission.) Tj
+T*
+() Tj
+T*
+(NET-2.2  Clinical content) Tj
+T*
+(   The request must identify member, diagnosis, symptoms, investigations, proposed) Tj
+T*
+(   procedure, estimated charges, room class and expected stay.) Tj
+T*
+() Tj
+T*
+(NET-2.3  Possible outcomes) Tj
+T*
+(   The request may be authorized, partially authorized, queried, declined for cashless) Tj
+T*
+(   service, or referred for medical review. Declined cashless service is not automatically a) Tj
+T*
+(   final claim rejection.) Tj
+T*
+() Tj
+T*
+(NET-2.4  Change in treatment) Tj
+T*
+(   Material change in diagnosis, procedure, implant, room or estimate requires enhancement) Tj
+T*
+(   or revised authorization.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 847 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(3. EMERGENCY ADMISSION WORKFLOW) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Emergency care must not be delayed solely for administrative authorization.) Tj
+T*
+() Tj
+T*
+(NET-3.1  Notification) Tj
+T*
+(   Hospital or member should notify the TPA within twenty-four hours or as soon as) Tj
+T*
+(   practicable.) Tj
+T*
+() Tj
+T*
+(NET-3.2  Stabilization) Tj
+T*
+(   Necessary stabilization proceeds according to clinical judgement. Authorization may be) Tj
+T*
+(   retrospective when immediate records were unavailable.) Tj
+T*
+() Tj
+T*
+(NET-3.3  Emergency evidence) Tj
+T*
+(   Emergency notes should describe onset, vital findings, provisional diagnosis, immediate) Tj
+T*
+(   treatment and reason admission could not await planned authorization.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 973 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(4. AUTHORIZATION CONTROLS) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Authorization must be traceable and limited to evidence reviewed.) Tj
+T*
+() Tj
+T*
+(NET-4.1  Authorization identifier) Tj
+T*
+(   Every decision receives a unique identifier, timestamp, reviewer and versioned evidence) Tj
+T*
+(   list.) Tj
+T*
+() Tj
+T*
+(NET-4.2  Scope) Tj
+T*
+(   Authorization identifies approved diagnosis or procedure, room eligibility, estimated) Tj
+T*
+(   amount, conditions and exclusions reserved for final assessment.) Tj
+T*
+() Tj
+T*
+(NET-4.3  Enhancement) Tj
+T*
+(   An enhancement request states the additional amount and clinical reason. Earlier approval) Tj
+T*
+(   is not erased when an enhancement is declined.) Tj
+T*
+() Tj
+T*
+(NET-4.4  Validity) Tj
+T*
+(   Authorization is valid only for the named member, provider, admission episode and) Tj
+T*
+(   validity period.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 980 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(5. DISCHARGE AND FINAL SETTLEMENT) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(The hospital submits final evidence before discharge settlement.) Tj
+T*
+() Tj
+T*
+(NET-5.1  Final packet) Tj
+T*
+(   Final bill, breakup, discharge summary, procedure notes, pharmacy and diagnostic details,) Tj
+T*
+(   implant evidence and member acknowledgment are required as applicable.) Tj
+T*
+() Tj
+T*
+(NET-5.2  Reconciliation) Tj
+T*
+(   Compare estimated and final diagnosis, procedure, stay, room and cost. Explain every) Tj
+T*
+(   material variance.) Tj
+T*
+() Tj
+T*
+(NET-5.3  Member collection) Tj
+T*
+(   The provider may collect documented non-payable amounts. Undifferentiated deposits or) Tj
+T*
+(   unexplained deductions must be escalated.) Tj
+T*
+() Tj
+T*
+(NET-5.4  Post-settlement audit) Tj
+T*
+(   Payment may be audited, but recovery requires evidence, authority and due process.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 890 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(6. NON-NETWORK AND REIMBURSEMENT CONVERSION) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Cashless unavailability must not be presented as proof that treatment is excluded.) Tj
+T*
+() Tj
+T*
+(NET-6.1  Conversion) Tj
+T*
+(   A member may submit reimbursement documents when cashless service is unavailable or) Tj
+T*
+(   declined, subject to policy terms.) Tj
+T*
+() Tj
+T*
+(NET-6.2  Emergency non-network care) Tj
+T*
+(   Emergency non-network hospitalization is assessed on necessity and reasonable charges;) Tj
+T*
+(   failure to reach a network hospital must be documented where relevant.) Tj
+T*
+() Tj
+T*
+(NET-6.3  Provider not recognized) Tj
+T*
+(   Claims from an unlicensed, excluded or unverifiable provider require compliance review) Tj
+T*
+(   and may be inadmissible under EXC-6.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 837 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(7. COMMUNICATION TEMPLATES) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Communications must separate administrative status from final coverage.) Tj
+T*
+() Tj
+T*
+(NET-7.1  Query language) Tj
+T*
+(   State the exact information required, its purpose and the response channel. Avoid) Tj
+T*
+(   language implying rejection before review.) Tj
+T*
+() Tj
+T*
+(NET-7.2  Partial authorization) Tj
+T*
+(   Identify approved amount, reserved items, member cost share and possibility of final) Tj
+T*
+(   adjustment.) Tj
+T*
+() Tj
+T*
+(NET-7.3  Cashless decline) Tj
+T*
+(   Explain whether the issue is provider arrangement, insufficient evidence, policy) Tj
+T*
+(   exclusion or non-eligibility, and state whether reimbursement remains available.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 776 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(8. SERVICE MONITORING) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Operational metrics must not reward unsafe automatic approval or denial.) Tj
+T*
+() Tj
+T*
+(NET-8.1  Metrics) Tj
+T*
+(   Monitor response time, query rate, avoidable resubmission, member complaints, overturned) Tj
+T*
+(   decisions, leakage and provider variance.) Tj
+T*
+() Tj
+T*
+(NET-8.2  Quality sampling) Tj
+T*
+(   Sample authorized, declined and enhanced cases for clause accuracy, clinical rationale) Tj
+T*
+(   and communication quality.) Tj
+T*
+() Tj
+T*
+(NET-8.3  System fallback) Tj
+T*
+(   During outage, record requests through approved continuity channels and preserve original) Tj
+T*
+(   receipt time.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000175 00000 n 
+0000000270 00000 n 
+0000000396 00000 n 
+0000001748 00000 n 
+0000001874 00000 n 
+0000002792 00000 n 
+0000002918 00000 n 
+0000004054 00000 n 
+0000004182 00000 n 
+0000005081 00000 n 
+0000005209 00000 n 
+0000006234 00000 n 
+0000006362 00000 n 
+0000007394 00000 n 
+0000007522 00000 n 
+0000008464 00000 n 
+0000008592 00000 n 
+0000009481 00000 n 
+0000009609 00000 n 
+trailer
+<< /Size 22 /Root 1 0 R >>
+startxref
+10437
+%%EOF

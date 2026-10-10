@@ -1,0 +1,668 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R] /Count 10 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1313 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(============================================================================================) Tj
+T*
+(APEXCARE INDIA EMPLOYEE HEALTH BENEFIT PROGRAMME \(AIEHBP\)) Tj
+T*
+(CLAIMS ADJUDICATION STANDARD OPERATING PROCEDURE) Tj
+T*
+(============================================================================================) Tj
+T*
+(Demonstration Version 1.0 | Effective date: 01 April 2026) Tj
+T*
+(Document code: AIEHBP-SOP-006) Tj
+T*
+(Primary audience: Internal claims, medical, quality, audit and engineering teams) Tj
+T*
+() Tj
+T*
+(FICTIONAL TRAINING DOCUMENT - NOT AN INSURANCE CONTRACT. This document is a synthetic) Tj
+T*
+(example created for software development, retrieval testing, and claims-workflow) Tj
+T*
+(demonstrations. A real insurer, employer, TPA, legal team, medical team, and compliance) Tj
+T*
+(function must review and approve all wording, benefits, timelines, forms, and regulatory) Tj
+T*
+(references before operational use.) Tj
+T*
+() Tj
+T*
+(Document-control rule: cite the document code, section, clause, page, and version in every decision.) Tj
+T*
+(Interpretation rule: the signed policy schedule and endorsements override this demonstration text.) Tj
+T*
+(============================================================================================) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 992 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(1. OPERATING PRINCIPLES) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(This internal SOP converts policy evidence into controlled decisions.) Tj
+T*
+() Tj
+T*
+(SOP-1.1  Evidence hierarchy) Tj
+T*
+(   Use source documents and structured policy clauses. Model-generated summaries are aids) Tj
+T*
+(   and never controlling evidence.) Tj
+T*
+() Tj
+T*
+(SOP-1.2  Four-eyes control) Tj
+T*
+(   Final rejection, fraud action, high-value exception and policy-conflict decision require) Tj
+T*
+(   an authorized second reviewer.) Tj
+T*
+() Tj
+T*
+(SOP-1.3  Traceability) Tj
+T*
+(   Store input documents, extraction version, retrieved clauses, scores, reviewer edits,) Tj
+T*
+(   calculations, timestamps and final communication.) Tj
+T*
+() Tj
+T*
+(SOP-1.4  Least harmful uncertainty) Tj
+T*
+(   Unresolved uncertainty becomes a query or manual review, not an unsupported approval or) Tj
+T*
+(   rejection.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2130 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(2. END-TO-END WORKFLOW) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Steps may run concurrently only when dependencies remain controlled.) Tj
+T*
+() Tj
+T*
+(SOP-2.1  Register) Tj
+T*
+(   Assign claim ID, receipt time, channel, member ID and document inventory.) Tj
+T*
+() Tj
+T*
+(SOP-2.2  Secure and classify) Tj
+T*
+(   Malware-scan files, identify type and split compound uploads without altering originals.) Tj
+T*
+() Tj
+T*
+(SOP-2.3  Extract) Tj
+T*
+(   Run text and field extraction. Preserve source coordinates and confidence for names,) Tj
+T*
+(   dates, diagnosis, procedure and amounts.) Tj
+T*
+() Tj
+T*
+(SOP-2.4  Validate identity) Tj
+T*
+(   Match member and patient using normalized fields and authorized master data.) Tj
+T*
+() Tj
+T*
+(SOP-2.5  Establish policy scope) Tj
+T*
+(   Select policy, plan, member category, effective version, geography and endorsements) Tj
+T*
+(   before clause retrieval.) Tj
+T*
+() Tj
+T*
+(SOP-2.6  Check completeness) Tj
+T*
+(   Use AIEHBP-CLM-003 and issue a specific deficiency request where necessary.) Tj
+T*
+() Tj
+T*
+(SOP-2.7  Retrieve evidence) Tj
+T*
+(   Run separate queries for benefit, exclusion, waiting period, required evidence, limit and) Tj
+T*
+(   exception. Apply metadata filters.) Tj
+T*
+() Tj
+T*
+(SOP-2.8  Medical review) Tj
+T*
+(   Assess necessity, diagnosis status, causation, coding, stay and experimental status where) Tj
+T*
+(   rules require.) Tj
+T*
+() Tj
+T*
+(SOP-2.9  Calculate) Tj
+T*
+(   Reconcile bills and apply non-payables, package rates, sublimits, room rules, deductible,) Tj
+T*
+(   co-pay, balance and restoration in order.) Tj
+T*
+() Tj
+T*
+(SOP-2.10  Decide) Tj
+T*
+(   Select approved, partially approved, rejected, pending information or manual review with) Tj
+T*
+(   reason codes.) Tj
+T*
+() Tj
+T*
+(SOP-2.11  Quality control) Tj
+T*
+(   Perform mandatory or sampled second review based on risk tier.) Tj
+T*
+() Tj
+T*
+(SOP-2.12  Communicate and pay) Tj
+T*
+(   Issue cited explanation, payment statement and grievance information; reconcile payment) Tj
+T*
+(   status.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1392 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(3. RETRIEVAL PROTOCOL) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Retrieval must be scoped, decomposed and evaluated.) Tj
+T*
+() Tj
+T*
+(SOP-3.1  Query construction) Tj
+T*
+(   Construct queries from verified facts, not unsupported model output. Include treatment) Tj
+T*
+(   concept, diagnosis status, policy product, service date and decision question.) Tj
+T*
+() Tj
+T*
+(SOP-3.2  Mandatory subqueries) Tj
+T*
+(   Retrieve coverage grant, applicable exclusions, exceptions, waiting periods, document) Tj
+T*
+(   requirements and monetary limits separately.) Tj
+T*
+() Tj
+T*
+(SOP-3.3  Metadata filters) Tj
+T*
+(   Filter policy ID, plan, effective date, jurisdiction, member category and document status) Tj
+T*
+(   before semantic ranking.) Tj
+T*
+() Tj
+T*
+(SOP-3.4  Complete-section retrieval) Tj
+T*
+(   For lists, definitions and schedules, retrieve the full authoritative section or) Tj
+T*
+(   structured records rather than relying on top-k fragments.) Tj
+T*
+() Tj
+T*
+(SOP-3.5  No-answer gate) Tj
+T*
+(   If no sufficiently relevant authoritative clause is found, return NOT_FOUND and route to) Tj
+T*
+(   manual policy review.) Tj
+T*
+() Tj
+T*
+(SOP-3.6  Conflicting evidence) Tj
+T*
+(   Return CONFLICTING_POLICY_EVIDENCE when clauses disagree or precedence cannot be) Tj
+T*
+(   resolved.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1137 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(4. DECISION MATRIX) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Every final decision must satisfy the relevant branch.) Tj
+T*
+() Tj
+T*
+(SOP-4.1  Approve) Tj
+T*
+(   Eligibility active, benefit applies, evidence sufficient, no controlling exclusion,) Tj
+T*
+(   necessity established and payable amount greater than zero.) Tj
+T*
+() Tj
+T*
+(SOP-4.2  Partially approve) Tj
+T*
+(   Some claimed items are covered and others are limited or excluded; provide line-item) Tj
+T*
+(   calculation and clauses.) Tj
+T*
+() Tj
+T*
+(SOP-4.3  Reject) Tj
+T*
+(   No payable benefit remains because a clearly applicable exclusion, non-eligibility,) Tj
+T*
+(   exhausted benefit or unsupported insured event controls after review.) Tj
+T*
+() Tj
+T*
+(SOP-4.4  Pending information) Tj
+T*
+(   Material evidence is missing or unclear and can reasonably be supplied.) Tj
+T*
+() Tj
+T*
+(SOP-4.5  Manual review) Tj
+T*
+(   Policy conflict, low extraction confidence, complex clinical issue, fraud concern, high) Tj
+T*
+(   financial impact or system anomaly exists.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1434 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(5. PAYABLE AMOUNT SEQUENCE) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Use decimal currency and retain every intermediate value.) Tj
+T*
+() Tj
+T*
+(SOP-5.1  Step A claimed amount) Tj
+T*
+(   Start with reconciled final billed amount, not the member-entered number alone.) Tj
+T*
+() Tj
+T*
+(SOP-5.2  Step B discounts and duplicates) Tj
+T*
+(   Subtract discounts, refunds, duplicated package items and arithmetic errors.) Tj
+T*
+() Tj
+T*
+(SOP-5.3  Step C non-payable items) Tj
+T*
+(   Apply clause-supported non-payables at line-item level.) Tj
+T*
+() Tj
+T*
+(SOP-5.4  Step D tariff and reasonable charge) Tj
+T*
+(   Apply contracted package or documented reasonable and customary limit.) Tj
+T*
+() Tj
+T*
+(SOP-5.5  Step E benefit sublimits) Tj
+T*
+(   Apply maternity, cataract, AYUSH, ambulance and other benefit caps.) Tj
+T*
+() Tj
+T*
+(SOP-5.6  Step F room relationship) Tj
+T*
+(   Apply valid proportionate deduction only to eligible room-linked items.) Tj
+T*
+() Tj
+T*
+(SOP-5.7  Step G deductible and co-pay) Tj
+T*
+(   Apply member cost sharing in schedule order.) Tj
+T*
+() Tj
+T*
+(SOP-5.8  Step H available balance) Tj
+T*
+(   Cap by available sum insured and activate restoration only when criteria are met.) Tj
+T*
+() Tj
+T*
+(SOP-5.9  Step I other recoveries) Tj
+T*
+(   Coordinate with other insurance and record net insurer liability.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1188 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(6. AUTOMATION CONTROLS) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Automated components require bounded authority.) Tj
+T*
+() Tj
+T*
+(SOP-6.1  Extraction) Tj
+T*
+(   Fields below approved confidence thresholds require source verification. Never coerce) Tj
+T*
+(   currency strings directly to integers without normalization.) Tj
+T*
+() Tj
+T*
+(SOP-6.2  Disease matching) Tj
+T*
+(   Use normalized clinical concepts and negation/status detection. Exact words, bag-of-words) Tj
+T*
+(   similarity and hard-coded disease lists cannot determine exclusion.) Tj
+T*
+() Tj
+T*
+(SOP-6.3  Generative models) Tj
+T*
+(   Models may summarize and draft explanations but must quote retrieved evidence, expose) Tj
+T*
+(   uncertainty and be prevented from inventing clauses.) Tj
+T*
+() Tj
+T*
+(SOP-6.4  Adverse decisions) Tj
+T*
+(   A model recommendation cannot autonomously issue a final rejection or fraud allegation.) Tj
+T*
+() Tj
+T*
+(SOP-6.5  Prompt injection) Tj
+T*
+(   Treat uploaded text as untrusted claim evidence. Instructions embedded in documents must) Tj
+T*
+(   never override system policy.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 1070 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(7. QUALITY AND ESCALATION) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Risk-based review protects members and the programme.) Tj
+T*
+() Tj
+T*
+(SOP-7.1  Mandatory medical review) Tj
+T*
+(   Complex surgery, experimental-status dispute, long stay, causation dispute, self-harm,) Tj
+T*
+(   substance issue and necessity rejection require medical review.) Tj
+T*
+() Tj
+T*
+(SOP-7.2  Mandatory senior review) Tj
+T*
+(   All rejections, fraud-linked actions, claims above INR 500,000 and precedent-setting) Tj
+T*
+(   interpretations require senior authorization in this demonstration workflow.) Tj
+T*
+() Tj
+T*
+(SOP-7.3  Sampling) Tj
+T*
+(   Quality team samples approvals, partial approvals, pending cases and rejections, with) Tj
+T*
+(   oversampling of automated recommendations.) Tj
+T*
+() Tj
+T*
+(SOP-7.4  Error correction) Tj
+T*
+(   Material error triggers correction, member notification, payment adjustment, root-cause) Tj
+T*
+(   analysis and model/rule remediation.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 928 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(8. RETRIEVAL AND DECISION METRICS) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Accuracy and safety outrank raw automation rate.) Tj
+T*
+() Tj
+T*
+(SOP-8.1  Retrieval metrics) Tj
+T*
+(   Measure clause recall at 5 and 10, nDCG, policy-routing accuracy, complete-section recall) Tj
+T*
+(   and citation validity.) Tj
+T*
+() Tj
+T*
+(SOP-8.2  Decision metrics) Tj
+T*
+(   Measure false approval, false rejection, partial-payment error, overturn rate and) Tj
+T*
+(   calculation variance.) Tj
+T*
+() Tj
+T*
+(SOP-8.3  Operational metrics) Tj
+T*
+(   Measure turnaround, query rate, duplicate requests, manual review volume and member) Tj
+T*
+(   complaints.) Tj
+T*
+() Tj
+T*
+(SOP-8.4  Ablation tests) Tj
+T*
+(   Compare lexical, dense, hybrid, reranked and structure-aware retrieval on a versioned) Tj
+T*
+(   gold set before deployment.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 830 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(9. REASON CODES) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Use stable reason codes alongside plain-language explanations.) Tj
+T*
+() Tj
+T*
+(SOP-9.1  ELIGIBILITY) Tj
+T*
+(   ELIG-NOT-ACTIVE, ELIG-DEPENDANT-NOT-ENROLLED and ELIG-SCOPE-MISMATCH.) Tj
+T*
+() Tj
+T*
+(SOP-9.2  DOCUMENTS) Tj
+T*
+(   DOC-MISSING-MATERIAL, DOC-ILLEGIBLE, DOC-INCONSISTENT and DOC-ORIGINAL-REQUIRED.) Tj
+T*
+() Tj
+T*
+(SOP-9.3  COVERAGE) Tj
+T*
+(   COV-NO-BENEFIT, COV-EXCLUSION, COV-WAITING-PERIOD and COV-GEOGRAPHY.) Tj
+T*
+() Tj
+T*
+(SOP-9.4  AMOUNT) Tj
+T*
+(   AMT-SUBLIMIT, AMT-NONPAYABLE, AMT-COPAY, AMT-BALANCE and AMT-ROOM-LIMIT.) Tj
+T*
+() Tj
+T*
+(SOP-9.5  REVIEW) Tj
+T*
+(   REV-MEDICAL, REV-POLICY-CONFLICT, REV-FRAUD-VERIFICATION and REV-LOW-CONFIDENCE.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000183 00000 n 
+0000000278 00000 n 
+0000000404 00000 n 
+0000001769 00000 n 
+0000001895 00000 n 
+0000002938 00000 n 
+0000003064 00000 n 
+0000005246 00000 n 
+0000005374 00000 n 
+0000006819 00000 n 
+0000006947 00000 n 
+0000008137 00000 n 
+0000008265 00000 n 
+0000009752 00000 n 
+0000009880 00000 n 
+0000011121 00000 n 
+0000011249 00000 n 
+0000012372 00000 n 
+0000012500 00000 n 
+0000013480 00000 n 
+0000013608 00000 n 
+trailer
+<< /Size 24 /Root 1 0 R >>
+startxref
+14490
+%%EOF

@@ -1,0 +1,618 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R] /Count 10 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1326 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(============================================================================================) Tj
+T*
+(APEXCARE INDIA EMPLOYEE HEALTH BENEFIT PROGRAMME \(AIEHBP\)) Tj
+T*
+(FRAUD CONTROLS, PRIVACY, GRIEVANCE AND AUDIT STANDARD) Tj
+T*
+(============================================================================================) Tj
+T*
+(Demonstration Version 1.0 | Effective date: 01 April 2026) Tj
+T*
+(Document code: AIEHBP-GOV-007) Tj
+T*
+(Primary audience: Internal compliance, investigation, privacy, grievance and audit teams) Tj
+T*
+() Tj
+T*
+(FICTIONAL TRAINING DOCUMENT - NOT AN INSURANCE CONTRACT. This document is a synthetic) Tj
+T*
+(example created for software development, retrieval testing, and claims-workflow) Tj
+T*
+(demonstrations. A real insurer, employer, TPA, legal team, medical team, and compliance) Tj
+T*
+(function must review and approve all wording, benefits, timelines, forms, and regulatory) Tj
+T*
+(references before operational use.) Tj
+T*
+() Tj
+T*
+(Document-control rule: cite the document code, section, clause, page, and version in every decision.) Tj
+T*
+(Interpretation rule: the signed policy schedule and endorsements override this demonstration text.) Tj
+T*
+(============================================================================================) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1355 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(1. FRAUD, WASTE AND ABUSE PRINCIPLES) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Controls must distinguish anomaly, error, abuse and proven fraud.) Tj
+T*
+() Tj
+T*
+(GOV-1.1  Red flag is not proof) Tj
+T*
+(   A red flag initiates proportionate verification. It must not automatically stop emergency) Tj
+T*
+(   care, label a member fraudulent or produce final denial.) Tj
+T*
+() Tj
+T*
+(GOV-1.2  Potential member indicators) Tj
+T*
+(   Possible indicators include altered invoices, duplicate claims, identity inconsistency) Tj
+T*
+(   and undisclosed reimbursement. Each may also have an innocent explanation.) Tj
+T*
+() Tj
+T*
+(GOV-1.3  Potential provider indicators) Tj
+T*
+(   Possible indicators include impossible service patterns, unbundling, phantom billing,) Tj
+T*
+(   excessive stays, repeated identical notes and unusual referral concentration.) Tj
+T*
+() Tj
+T*
+(GOV-1.4  Evidence preservation) Tj
+T*
+(   Preserve original files, hashes, metadata, communications, verification responses and) Tj
+T*
+(   investigator notes with controlled access.) Tj
+T*
+() Tj
+T*
+(GOV-1.5  Authorized outcome) Tj
+T*
+(   Only authorized investigation and claims personnel may conclude fraud-related action,) Tj
+T*
+(   following contract and applicable due process.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1055 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(2. VERIFICATION METHODS) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Use the least intrusive reliable method appropriate to risk.) Tj
+T*
+() Tj
+T*
+(GOV-2.1  Document verification) Tj
+T*
+(   Confirm invoice number, provider issuance, payment, admission and clinical records) Tj
+T*
+(   through approved channels.) Tj
+T*
+() Tj
+T*
+(GOV-2.2  Member contact) Tj
+T*
+(   Use verified contact details, avoid disclosing diagnosis unnecessarily and document) Tj
+T*
+(   consent or authority.) Tj
+T*
+() Tj
+T*
+(GOV-2.3  Provider contact) Tj
+T*
+(   Request only relevant records, authenticate the requester and record response provenance.) Tj
+T*
+() Tj
+T*
+(GOV-2.4  Analytics) Tj
+T*
+(   Network and anomaly scores prioritize review; they do not determine guilt or coverage.) Tj
+T*
+() Tj
+T*
+(GOV-2.5  Clinical review) Tj
+T*
+(   Medical plausibility questions must be assessed by qualified reviewers rather than) Tj
+T*
+(   investigators or language models alone.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1250 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(3. PRIVACY AND DATA MINIMIZATION) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Health and identity information requires heightened protection.) Tj
+T*
+() Tj
+T*
+(GOV-3.1  Purpose limitation) Tj
+T*
+(   Collect and use claim data only for authorized insurance operations, legal duties,) Tj
+T*
+(   quality, fraud control and explicitly approved secondary purposes.) Tj
+T*
+() Tj
+T*
+(GOV-3.2  Minimum necessary) Tj
+T*
+(   Retrieve and expose only fields and documents required for the task. Mask unrelated) Tj
+T*
+(   diagnoses, family data, account numbers and identifiers where practical.) Tj
+T*
+() Tj
+T*
+(GOV-3.3  Access control) Tj
+T*
+(   Enforce role-based access, strong authentication, least privilege, periodic) Tj
+T*
+(   recertification and immediate revocation on role change.) Tj
+T*
+() Tj
+T*
+(GOV-3.4  Encryption and transfer) Tj
+T*
+(   Protect stored and transmitted data using approved encryption and controlled transfer) Tj
+T*
+(   channels.) Tj
+T*
+() Tj
+T*
+(GOV-3.5  Model handling) Tj
+T*
+(   Do not send claim data to an external model unless contractual, privacy, security,) Tj
+T*
+(   residency and retention controls are approved.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 998 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(4. RETENTION AND DELETION) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Production schedules must be approved against current legal and contractual requirements.) Tj
+T*
+() Tj
+T*
+(GOV-4.1  Retention schedule) Tj
+T*
+(   Assign records a category, owner, legal basis, retention period and disposal method. This) Tj
+T*
+(   synthetic document does not prescribe a statutory period.) Tj
+T*
+() Tj
+T*
+(GOV-4.2  Legal hold) Tj
+T*
+(   Suspend normal deletion for records subject to litigation, investigation, audit or) Tj
+T*
+(   regulatory hold.) Tj
+T*
+() Tj
+T*
+(GOV-4.3  Derived data) Tj
+T*
+(   Embeddings, extracted fields, prompts, logs and model outputs are claim data and follow) Tj
+T*
+(   equivalent governance.) Tj
+T*
+() Tj
+T*
+(GOV-4.4  Secure disposal) Tj
+T*
+(   Delete or destroy data verifiably across primary, cache, backup and vendor systems) Tj
+T*
+(   according to approved procedure.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1159 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(5. GRIEVANCE AND REVIEW) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Members need accessible review of adverse decisions.) Tj
+T*
+() Tj
+T*
+(GOV-5.1  Grievance intake) Tj
+T*
+(   Accept grievances through approved digital, written and assisted channels. Record) Tj
+T*
+(   receipt, issue, requested remedy and communication needs.) Tj
+T*
+() Tj
+T*
+(GOV-5.2  Independent review) Tj
+T*
+(   Where practical, a reviewer not responsible for the original adverse decision reassesses) Tj
+T*
+(   evidence, policy scope, clauses and calculation.) Tj
+T*
+() Tj
+T*
+(GOV-5.3  Additional evidence) Tj
+T*
+(   Allow relevant new evidence and explain whether it changes the decision.) Tj
+T*
+() Tj
+T*
+(GOV-5.4  Response) Tj
+T*
+(   Provide outcome, reasons, cited clauses, calculation, further escalation route and) Tj
+T*
+(   applicable external review information.) Tj
+T*
+() Tj
+T*
+(GOV-5.5  Timelines) Tj
+T*
+(   Configure acknowledgment and resolution timelines from the current contract and) Tj
+T*
+(   regulatory requirements; do not hard-code an outdated legal period.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1118 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(6. AUDIT TRAIL REQUIREMENTS) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(A complete trail permits reconstruction without relying on memory.) Tj
+T*
+() Tj
+T*
+(GOV-6.1  Input provenance) Tj
+T*
+(   Record uploader, channel, receipt time, original filename, hash and transformation) Tj
+T*
+(   history.) Tj
+T*
+() Tj
+T*
+(GOV-6.2  Policy provenance) Tj
+T*
+(   Record corpus version, policy ID, effective version, metadata filters, retrieved chunks,) Tj
+T*
+(   rankings and cited clauses.) Tj
+T*
+() Tj
+T*
+(GOV-6.3  Model provenance) Tj
+T*
+(   Record model and prompt version, parameters, outputs, confidence and human changes) Tj
+T*
+(   without exposing secret credentials.) Tj
+T*
+() Tj
+T*
+(GOV-6.4  Decision provenance) Tj
+T*
+(   Record reviewer, authority, reason codes, calculation, approval chain, communication and) Tj
+T*
+(   payment reference.) Tj
+T*
+() Tj
+T*
+(GOV-6.5  Immutability) Tj
+T*
+(   Protect material audit records from unauthorized alteration and log permitted corrections) Tj
+T*
+(   as new events.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 1103 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(7. MODEL AND RETRIEVAL GOVERNANCE) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Retrieval systems are controlled decision-support components.) Tj
+T*
+() Tj
+T*
+(GOV-7.1  Pre-deployment validation) Tj
+T*
+(   Test representative, rare, adverse, multilingual, OCR-degraded, negated and) Tj
+T*
+(   conflicting-policy cases.) Tj
+T*
+() Tj
+T*
+(GOV-7.2  Gold set) Tj
+T*
+(   Maintain reviewed questions linking claims to authoritative clauses and expected decision) Tj
+T*
+(   factors.) Tj
+T*
+() Tj
+T*
+(GOV-7.3  Change control) Tj
+T*
+(   Re-indexing, model changes, chunking changes, policy updates and prompt changes require) Tj
+T*
+(   versioned testing and approval.) Tj
+T*
+() Tj
+T*
+(GOV-7.4  Monitoring) Tj
+T*
+(   Monitor drift, retrieval misses, unsupported citations, policy mixing, latency, cost and) Tj
+T*
+(   decision disparities.) Tj
+T*
+() Tj
+T*
+(GOV-7.5  Kill switch) Tj
+T*
+(   Provide a tested mechanism to disable automated recommendation and continue controlled) Tj
+T*
+(   manual processing.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 921 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(8. INCIDENT RESPONSE) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(Security and decision incidents require coordinated action.) Tj
+T*
+() Tj
+T*
+(GOV-8.1  Incident types) Tj
+T*
+(   Include unauthorized disclosure, corrupted index, wrong policy version, systematic false) Tj
+T*
+(   rejection, prompt injection and payment manipulation.) Tj
+T*
+() Tj
+T*
+(GOV-8.2  Containment) Tj
+T*
+(   Restrict access, stop affected automation, preserve evidence and identify impacted claims) Tj
+T*
+(   and members.) Tj
+T*
+() Tj
+T*
+(GOV-8.3  Correction) Tj
+T*
+(   Reprocess affected claims using a validated version and provide remediation and) Tj
+T*
+(   notification as required.) Tj
+T*
+() Tj
+T*
+(GOV-8.4  Learning) Tj
+T*
+(   Complete root-cause analysis, corrective controls, regression tests and accountable) Tj
+T*
+(   closure.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 1219 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+36 756 Td
+(9. PRODUCTION ADOPTION CHECKLIST) Tj
+T*
+(--------------------------------------------------------------------------------------------) Tj
+T*
+(A company must complete these items before treating the pack as operational.) Tj
+T*
+() Tj
+T*
+(GOV-9.1  Legal approval) Tj
+T*
+(   Replace fictional terms with approved policy wording and current jurisdiction-specific) Tj
+T*
+(   requirements.) Tj
+T*
+() Tj
+T*
+(GOV-9.2  Actuarial and underwriting approval) Tj
+T*
+(   Validate benefits, limits, waiting periods, pricing assumptions and risk acceptance.) Tj
+T*
+() Tj
+T*
+(GOV-9.3  Clinical approval) Tj
+T*
+(   Validate necessity rules, clinical pathways, modern treatments and review thresholds.) Tj
+T*
+() Tj
+T*
+(GOV-9.4  Privacy and security approval) Tj
+T*
+(   Complete data-flow mapping, vendor assessment, threat modeling and access design.) Tj
+T*
+() Tj
+T*
+(GOV-9.5  Operational approval) Tj
+T*
+(   Validate forms, provider contracts, payment controls, training, service levels and) Tj
+T*
+(   business continuity.) Tj
+T*
+() Tj
+T*
+(GOV-9.6  Explicit prohibition) Tj
+T*
+(   Do not present this synthetic pack to a member as an issued policy or rely on it for a) Tj
+T*
+(   real claim decision.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000183 00000 n 
+0000000278 00000 n 
+0000000404 00000 n 
+0000001782 00000 n 
+0000001908 00000 n 
+0000003315 00000 n 
+0000003441 00000 n 
+0000004548 00000 n 
+0000004676 00000 n 
+0000005979 00000 n 
+0000006107 00000 n 
+0000007157 00000 n 
+0000007285 00000 n 
+0000008497 00000 n 
+0000008625 00000 n 
+0000009796 00000 n 
+0000009924 00000 n 
+0000011080 00000 n 
+0000011208 00000 n 
+0000012181 00000 n 
+0000012309 00000 n 
+trailer
+<< /Size 24 /Root 1 0 R >>
+startxref
+13581
+%%EOF

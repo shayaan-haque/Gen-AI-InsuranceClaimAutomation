@@ -1,0 +1,33 @@
+# Secrets (keep the safe configuration template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated files, including nested environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local evaluation outputs; retain reviewed test_cases.json
+evaluation/datasets/
+evaluation/experiments/
+evaluation/logs/
+logs/
+
+# Local indexes, caches and uploaded claim documents
+faiss/
+.cache/
+uploads/
+
+# OS files
+.DS_Store
