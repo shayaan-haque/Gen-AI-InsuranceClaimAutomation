@@ -1,3 +1,5 @@
+from threading import RLock
+
 from services.embeddings import get_embeddings
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
@@ -10,6 +12,8 @@ from services.document_processor import get_document_loader
 documents = get_document_loader()
 chunks, parent_documents = get_parent_child_chunks(documents)
 model = HuggingFaceCrossEncoder(model_name="BAAI/bge-reranker-base")
+_retrieval_lock = RLock()
+_shared_retriever = None
 
 def get_advanced_retriever(chunks, vector_db):
     """
@@ -43,17 +47,31 @@ def get_advanced_retriever(chunks, vector_db):
     return advanced_retriever
 
 
+def initialize_retrieval():
+    """Initialize shared models/index before the web server accepts requests."""
+    global _shared_retriever
+    with _retrieval_lock:
+        if _shared_retriever is None:
+            _shared_retriever = get_advanced_retriever(chunks, get_embeddings())
+        return _shared_retriever
+
+
+def _retrieve_context(query):
+    # Avoid overlapping native model inference from Flask request threads.
+    with _retrieval_lock:
+        import faiss
+        faiss.omp_set_num_threads(1)
+        return initialize_retrieval().invoke(query)
+
+
 def get_retriever():
     db = get_embeddings()
     retriever = db.as_retriever()
     return retriever
 
 def get_claim_approval_context():
-    db = get_embeddings()
-    retriever = get_advanced_retriever(chunks, db)
-    
     # Run the query through BM25 -> FAISS -> Hybrid Fusion -> Cross-Encoder
-    context_docs = retriever.invoke("What are the documents required for claim approval?")
+    context_docs = _retrieve_context("What are the documents required for claim approval?")
     
     # Extract the text just like before
     claim_approval_context = ""
@@ -63,10 +81,7 @@ def get_claim_approval_context():
     return claim_approval_context
 
 def get_general_exclusion_context():
-    db = get_embeddings()
-    retriever = get_advanced_retriever(chunks, db)
-
-    context = retriever.invoke("Give a list of all general exclusions")
+    context = _retrieve_context("Give a list of all general exclusions")
 
     # This is a complete-list query. Search the child chunks first, then expand
     # the matching General Exclusions child to its non-embedded parent section.

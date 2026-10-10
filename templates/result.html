@@ -1,87 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
+  <title>Claim assessment | ClaimTrackr</title>
+  <style>
+    :root {
+      --ink: #172b4d;
+      --muted: #64748b;
+      --blue: #2563eb;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f5f7fb;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    a { color: var(--blue); }
+    .site-header { background: #fff; border-bottom: 1px solid var(--border); }
+    .nav, main { width: min(1180px, calc(100% - 48px)); margin: auto; }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 0; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); font-size: 19px; font-weight: 750; text-decoration: none; }
+    .brand-icon { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; color: #fff; background: var(--blue); }
+    .nav-link { font-size: 14px; font-weight: 600; text-decoration: none; }
+    main { padding-top: 40px; padding-bottom: 36px; }
+    .page-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+    .eyebrow { margin: 0 0 7px; color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(26px, 3vw, 34px); line-height: 1.25; letter-spacing: -.03em; }
+    .subtitle { margin: 10px 0 0; color: var(--muted); font-size: 15px; }
+    .actions { display: flex; gap: 10px; flex-shrink: 0; padding-top: 5px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; padding: 10px 16px; border: 1px solid var(--border); border-radius: 9px; background: #fff; color: var(--ink); font: inherit; font-size: 14px; font-weight: 600; text-decoration: none; cursor: pointer; }
+    .button:hover { background: #f1f5f9; }
+    .button-primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .button-primary:hover { background: #1d4ed8; }
+    a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #93c5fd; outline-offset: 4px; }
+    .layout { display: grid; grid-template-columns: 310px minmax(0, 1fr); align-items: start; gap: 24px; }
+    .card { overflow: hidden; border: 1px solid var(--border); border-radius: 14px; background: #fff; box-shadow: 0 4px 20px rgb(23 43 77 / 3%); }
+    .card-header { padding: 22px 24px; border-bottom: 1px solid var(--border); }
+    .card-header h2 { margin: 0; font-size: 17px; font-weight: 700; }
+    .card-header p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+    .summary-body { padding: 24px; }
+    .amount { padding: 17px 18px; margin-bottom: 23px; border: 1px solid #dbeafe; border-radius: 10px; background: #eff6ff; }
+    .amount-label { display: block; color: #475569; font-size: 12px; }
+    .amount-value { display: block; margin-top: 5px; color: #1e40af; font-size: 27px; font-weight: 750; overflow-wrap: anywhere; }
+    dl { margin: 0; }
+    .detail { padding: 13px 0; border-bottom: 1px solid #f1f5f9; }
+    .detail:first-child { padding-top: 0; }
+    .detail:last-child { border-bottom: 0; padding-bottom: 0; }
+    dt { color: var(--muted); font-size: 12px; }
+    dd { margin: 4px 0 0; font-size: 14px; font-weight: 550; overflow-wrap: anywhere; }
+    .description { margin-top: 23px; padding-top: 18px; border-top: 1px solid var(--border); }
+    .description summary { color: var(--muted); font-size: 13px; cursor: pointer; }
+    .description p { margin-bottom: 0; font-size: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .report { padding: 28px 30px; font-size: 15px; line-height: 1.8; overflow-wrap: anywhere; }
+    .report > :first-child { margin-top: 0; }
+    .report > :last-child { margin-bottom: 0; }
+    .report h1 { font-size: 25px; }
+    .report h2 { font-size: 20px; }
+    .report h3 { font-size: 17px; }
+    .report h1, .report h2, .report h3, .report h4 { margin: 28px 0 12px; line-height: 1.4; color: var(--ink); }
+    .report p { margin: 0 0 16px; }
+    .report ul, .report ol { padding-left: 24px; margin: 12px 0 20px; }
+    .report li { margin: 7px 0; }
+    .report strong { color: #0f172a; }
+    .report blockquote { margin: 20px 0; padding: 14px 18px; border-left: 3px solid #93c5fd; border-radius: 0 8px 8px 0; background: #f8fafc; }
+    .report pre { overflow-x: auto; padding: 16px; background: #f1f5f9; border-radius: 8px; }
+    .report code { font-size: .9em; }
+    .report table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 20px 0; }
+    .report th, .report td { padding: 10px 12px; border: 1px solid var(--border); text-align: left; }
+    .report th { background: #f8fafc; }
+    .report hr { border: 0; border-top: 1px solid var(--border); margin: 24px 0; }
+    .notice { margin: 24px 0 0; padding: 15px 18px; border: 1px solid #e2e8f0; border-radius: 10px; color: var(--muted); font-size: 13px; }
+    .notice strong { color: #475569; }
+    .footer { margin-top: 28px; color: #94a3b8; font-size: 12px; text-align: center; }
+    @media (max-width: 900px) {
+      .page-heading { flex-direction: column; gap: 18px; }
+      .layout { grid-template-columns: 1fr; }
+      dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; }
+      .detail:first-child { padding-top: 13px; }
+    }
+    @media (max-width: 520px) {
+      .nav, main { width: calc(100% - 32px); }
+      main { padding-top: 28px; }
+      .actions { width: 100%; }
+      .actions .button { flex: 1; padding: 10px; }
+      .card-header, .summary-body, .report { padding: 20px; }
+      dl { grid-template-columns: 1fr; }
+      .report { font-size: 14px; }
+    }
+    @media print {
+      body { background: #fff; color: #000; }
+      .site-header, .actions, .description, .footer { display: none; }
+      main { width: 100%; padding: 0; }
+      .layout { display: block; }
+      .card { box-shadow: none; margin-bottom: 20px; }
+      dl { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 20px; }
+      .amount { background: #fff; }
+      .report { padding: 20px; }
+      .report table { display: table; }
+      h2, h3, dt { break-after: avoid; }
+      .detail { break-inside: avoid; }
+    }
+  </style>
 </head>
-
 <body>
-  <div class="bg-white">
-    <header class="absolute inset-x-0 top-0 z-50">
-      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="{{ url_for('index') }}">
+        <span class="brand-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 4 6v6c0 4 5 7 8 9 3-2 8-5 8-9V6l-8-3Z"/><path d="m8 12 3 3 5-6"/></svg>
+        </span>
+        ClaimTrackr
+      </a>
+      <a class="nav-link" href="{{ url_for('index') }}">Back to claims &rarr;</a>
+    </nav>
+  </header>
 
-            <img class="h-8 w-auto"
-              src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1711258410/mf2hcco2w3ekb5ngrngg.svg" alt="">
-          </a>
-        </div>
-
-
-      </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-
-    </header>
-
-    <div class="relative isolate px-6 pt-14 lg:px-8">
-      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-        aria-hidden="true">
-        <div
-          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-blue-200 to-blue-400 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-        </div>
+  <main>
+    <div class="page-heading">
+      <div>
+        <p class="eyebrow">Insurance claim review</p>
+        <h1>Your claim assessment</h1>
+        <p class="subtitle">Review your submitted details and the assessment below.</p>
       </div>
-
-      <div class="mx-auto max-w-2xl py-12 ">
-        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div
-            class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 font-mono">
-            Insurance claim Result
-          </div>
-        </div>
-        <div class="text-left border-2 p-8 border-blue-200 drop-shadow-2xl">
-
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600 text-center">Your insurance outcomes are as follows...</p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Patient Name - <span class="font-bold">{{name}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Patient Address - <span
-              class="font-bold">{{address}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Claim Type - <span class="font-bold">{{claim_type}}</span>
-          </p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Claim Reason - <span
-              class="font-bold">{{claim_reason}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Medical Facility - <span
-              class="font-bold">{{medical_facility}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Total Claim Amount - <span
-              class="font-bold">{{total_claim_amount}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Description - <span
-              class="font-bold">{{description}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600 text-center">{{ output | safe }}</p>
-
-        </div>
-      </div>
-      <div
-        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        aria-hidden="true">
-        <div
-          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-blue-200 to-blue-400 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-        </div>
+      <div class="actions">
+        <button class="button" type="button" onclick="window.print()">Print report</button>
+        <a class="button button-primary" href="{{ url_for('index') }}">Submit a new claim</a>
       </div>
     </div>
-  </div>
-  <!-- add a back button -->
-  <div class="flex justify-center">
-    <a href="./"
-      class="inline-flex items-center px-4 py-2 bg-blue-500 border border-transparent rounded-md font-semibold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700 active:bg-blue-800">
-      <span class="inline-block">Back </span>
-    </a>
 
-  </div>
+    <div class="layout">
+      <aside class="card" aria-labelledby="summary-heading">
+        <div class="card-header"><h2 id="summary-heading">Claim summary</h2><p>Your submitted information</p></div>
+        <div class="summary-body">
+          <div class="amount">
+            <span class="amount-label">Requested amount &middot; INR</span>
+            <span class="amount-value">{{ total_claim_amount or 'Not provided' }}</span>
+          </div>
+          <dl>
+            <div class="detail"><dt>Patient name</dt><dd>{{ name or 'Not provided' }}</dd></div>
+            <div class="detail"><dt>Claim type</dt><dd>{{ claim_type or 'Not provided' }}</dd></div>
+            <div class="detail"><dt>Claim reason</dt><dd>{{ claim_reason or 'Not provided' }}</dd></div>
+            <div class="detail"><dt>Treatment date</dt><dd>{{ date or 'Not provided' }}</dd></div>
+            <div class="detail"><dt>Medical facility</dt><dd>{{ medical_facility or 'Not provided' }}</dd></div>
+            <div class="detail"><dt>Patient address</dt><dd>{{ address or 'Not provided' }}</dd></div>
+          </dl>
+          {% if description %}
+          <details class="description"><summary>View claim description</summary><p>{{ description }}</p></details>
+          {% endif %}
+        </div>
+      </aside>
+
+      <section class="card" aria-labelledby="assessment-heading">
+        <div class="card-header"><h2 id="assessment-heading">Assessment report</h2><p>Findings and reasoning from the automated review</p></div>
+        <div class="report">
+          {% if output %}
+            {{ output | safe }}
+          {% else %}
+            <p>No assessment is available. Please return to the claim form and try again.</p>
+          {% endif %}
+        </div>
+      </section>
+    </div>
+
+    <p class="notice"><strong>Demonstration only.</strong> This assessment uses synthetic policy documents and AI-generated analysis. It is not a binding insurance decision and should not be used to settle a real claim.</p>
+    <footer class="footer">ClaimTrackr &middot; AI-assisted insurance claim review</footer>
+  </main>
 </body>
-
 </html>

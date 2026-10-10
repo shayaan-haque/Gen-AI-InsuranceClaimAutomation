@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from services.invoice_extractor import get_file_content, get_bill_info
-from services.retrieval import get_claim_approval_context, get_general_exclusion_context
+from services.retrieval import get_claim_approval_context, get_general_exclusion_context, initialize_retrieval
 from services.llm_chain import check_claim_rejection,PROMPT
 import json
 import markdown
@@ -68,5 +68,7 @@ def msg():
         return render_template("result.html", name=name, address=address, claim_type=claim_type, claim_reason=claim_reason, date=date, medical_facility=medical_facility, total_claim_amount=total_claim_amount, description=description, output=output)
 
 if __name__ == '__main__':
+    # Load native models once on the main thread, before handling requests.
+    initialize_retrieval()
     app.run(host='0.0.0.0', port=8081)
 

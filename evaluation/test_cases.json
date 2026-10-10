@@ -3,60 +3,124 @@
     "id": "TC-001",
     "user_input": "What is the emergency road ambulance limit?",
     "reference": "Emergency road ambulance is covered up to INR 5,000 per hospitalization for transport to the nearest suitable hospital.",
-    "expected_clause_ids": ["BEN-2.6"]
+    "expected_clause_ids": [
+      "BEN-2.6"
+    ]
   },
   {
     "id": "TC-002",
     "user_input": "What are the single private room and ICU daily limits?",
     "reference": "Single private room cover is limited to INR 7,500 per day. ICU cover is limited to INR 15,000 per day, subject to clinical necessity. No ICU deduction applies when the only available ICU exceeds the limit during a documented emergency.",
-    "expected_clause_ids": ["BEN-2.2", "BEN-2.3"]
+    "expected_clause_ids": [
+      "BEN-2.2",
+      "BEN-2.3"
+    ]
   },
   {
     "id": "TC-003",
     "user_input": "How many days of pre-hospitalization and post-hospitalization expenses are covered?",
     "reference": "Pre-hospitalization expenses are covered for 30 days and post-hospitalization expenses for 60 days. Both must relate to the same condition as an admissible hospitalization.",
-    "expected_clause_ids": ["BEN-2.4", "BEN-2.5"]
+    "expected_clause_ids": [
+      "BEN-2.4",
+      "BEN-2.5"
+    ]
   },
   {
     "id": "TC-004",
     "user_input": "Is routine dental treatment covered, and what is the exception for an accident?",
     "reference": "Routine dental treatment, including consultation, fillings, cleaning, dentures, orthodontics and non-accidental oral surgery, is excluded. Emergency treatment of natural teeth damaged directly by a covered accident is covered up to INR 25,000 per accident.",
-    "expected_clause_ids": ["EXC-2.11", "BEN-2.18"]
+    "expected_clause_ids": [
+      "EXC-2.11",
+      "BEN-2.18"
+    ]
   },
   {
     "id": "TC-005",
     "user_input": "Is reconstructive surgery after a covered accident automatically excluded as cosmetic treatment?",
     "reference": "No. Treatment primarily to alter appearance is excluded, but reconstructive treatment after a covered accident is assessed under core cover and may be covered. It is not automatically approved; applicable coverage conditions still need to be met.",
-    "expected_clause_ids": ["EXC-2.3", "EXC-5.1"]
+    "expected_clause_ids": [
+      "EXC-2.3",
+      "EXC-5.1"
+    ]
   },
   {
     "id": "TC-006",
     "user_input": "What is the waiting period for pre-existing disease, and can it be changed?",
     "reference": "The waiting period is 36 months of continuous coverage unless a policy endorsement waives or reduces it.",
-    "expected_clause_ids": ["BEN-4.3"]
+    "expected_clause_ids": [
+      "BEN-4.3"
+    ]
   },
   {
     "id": "TC-007",
     "user_input": "If a parent claim has an admissible expense of INR 200,000, what is payable after the parent co-payment, assuming sufficient available balance?",
     "reference": "The parent co-payment is 20 percent, or INR 40,000. The payable amount is INR 160,000, subject to sufficient available parental floater balance.",
-    "expected_clause_ids": ["BEN-7.1"]
+    "expected_clause_ids": [
+      "BEN-7.1"
+    ]
   },
   {
     "id": "TC-008",
     "user_input": "Which additional documents are required when an implant charge is claimed?",
     "reference": "The implant sticker, batch or serial number, invoice and procurement record are required when an implant charge is claimed.",
-    "expected_clause_ids": ["CLM-3.2"]
+    "expected_clause_ids": [
+      "CLM-3.2"
+    ]
   },
   {
     "id": "TC-009",
     "user_input": "List all document categories in the universal in-patient reimbursement checklist, including conditional requirements.",
     "reference": "The checklist includes a completed signed or authenticated claim form; member identity through a health card or member certificate plus government identity where required; discharge summary; final hospital bill; detailed bill breakup; payment evidence; signed prescriptions; diagnostic reports; bank evidence through a cancelled cheque or verified bank details matching the authorized payee; and KYC or tax documents only when required by payment, identity or applicable compliance rules.",
-    "expected_clause_ids": ["CLM-2.1", "CLM-2.2", "CLM-2.3", "CLM-2.4", "CLM-2.5", "CLM-2.6", "CLM-2.7", "CLM-2.8", "CLM-2.9", "CLM-2.10"]
+    "expected_clause_ids": [
+      "CLM-2.1",
+      "CLM-2.2",
+      "CLM-2.3",
+      "CLM-2.4",
+      "CLM-2.5",
+      "CLM-2.6",
+      "CLM-2.7",
+      "CLM-2.8",
+      "CLM-2.9",
+      "CLM-2.10"
+    ]
   },
   {
     "id": "TC-010",
     "user_input": "Does a Parkinson disease diagnosis automatically mean that hospitalization is excluded?",
     "reference": "No. Parkinson disease is not a blanket exclusion in this demonstration plan. Hospitalization is assessed under normal coverage rules. Custodial or long-term residential care may be excluded under the rest cure and custodial care exclusion.",
-    "expected_clause_ids": ["EXC-4.2", "EXC-2.2"]
+    "expected_clause_ids": [
+      "EXC-4.2",
+      "EXC-2.2"
+    ]
+  },
+  {
+    "id": "TC-011",
+    "user_input": "Does the policy cover mental health treatment for clinical depression, and what are the limitations?",
+    "reference": "Mental healthcare is covered under the policy subject to the same medical necessity and documentation standards as other conditions. Coverage is limited to 30 days per policy year for inpatient mental health treatment, and partial coverage may apply for outpatient sessions with a referring psychiatrist's diagnosis. A pre-existing mental health condition diagnosed before the coverage start date is assessed under the plan's waiting-period rules.",
+    "expected_clause_ids": [
+      "POL-5.4",
+      "EXC-4.4",
+      "BEN-4.3"
+    ]
+  },
+  {
+    "id": "TC-012",
+    "user_input": "Is experimental cancer treatment covered under the modern treatment methods benefit?",
+    "reference": "Experimental treatment lacking accepted evidence or required approval is excluded under EXC-2.9. However, listed modern treatment methods meeting medical necessity and schedule sublimits are covered under BEN-2.15. The policy distinguishes between approved modern treatments and unproven experimental protocols; only the former are eligible.",
+    "expected_clause_ids": [
+      "EXC-2.9",
+      "BEN-2.15",
+      "EXC-5.4"
+    ]
+  },
+  {
+    "id": "TC-013",
+    "user_input": "If a claim involves both an accident and an illness, which waiting period applies?",
+    "reference": "When a claim involves both accident and illness, the initial thirty-day waiting period does not apply to the accidental injury treatment. However, any illness first manifesting or requiring treatment during the coverage period is subject to the standard thirty-day waiting period unless caused solely by the covered accident. Continuous coverage credits and documented breaks are preserved according to the endorsement.",
+    "expected_clause_ids": [
+      "EXC-3.1",
+      "EXC-3.2",
+      "BEN-4.1"
+    ]
   }
 ]
